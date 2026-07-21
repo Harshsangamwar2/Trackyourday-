@@ -19,6 +19,7 @@ const COLORS = {
 function todayStr() {
   return new Date().toISOString().split("T")[0];
 }
+
 function dateLabel() {
   return new Date().toLocaleDateString(undefined, {
     weekday: "long",
